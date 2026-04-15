@@ -1,5 +1,5 @@
 // 📁 app/src/main/java/com/example/luontopeli/ui/theme/Type.kt
-package com.example.luontopeli.ui.theme
+package com.epitkane19.luontopeli.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

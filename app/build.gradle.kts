@@ -13,6 +13,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.google.services)  // Tarvitaan google-services.json:lle
 }
 
 android {
@@ -20,7 +21,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.luontopeli"
+        applicationId = "com.epitkane19.luontopeli"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -86,6 +87,7 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.material.icons.extended)
 
+
     // Navigation
     implementation(libs.androidx.navigation.compose)
 
@@ -120,6 +122,14 @@ dependencies {
 
     // Accompanist Permissions
     implementation(libs.accompanist.permissions)
+
+    // Firebase BOM – hallitsee kaikkien Firebase-kirjastojen versiot automaattisesti
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)       // Authentication – käyttäjätunnistus
+    implementation(libs.firebase.firestore)  // Firestore – löytöjen metadata pilveen
+
+    // Guava – ratkaisee Firebase + CameraX ListenableFuture -ristiriidan
+    implementation("com.google.guava:guava:32.1.3-android")
 
     // Test
     testImplementation(libs.junit)

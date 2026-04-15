@@ -1,5 +1,7 @@
 package com.epitkane19.luontopeli
 
+// 📁 MainActivity.kt
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,7 +13,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.rememberNavController
 import com.epitkane19.luontopeli.ui.navigation.LuontopeliBottomBar
 import com.epitkane19.luontopeli.ui.navigation.LuontopeliNavigation
-import com.example.luontopeli.ui.theme.LuontopeliTheme
+import com.epitkane19.luontopeli.ui.theme.LuontopeliTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 /**

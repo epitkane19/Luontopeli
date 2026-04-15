@@ -1,5 +1,5 @@
 // 📁 app/src/main/java/com/example/luontopeli/ui/theme/Theme.kt
-package com.example.luontopeli.ui.theme
+package com.epitkane19.luontopeli.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*

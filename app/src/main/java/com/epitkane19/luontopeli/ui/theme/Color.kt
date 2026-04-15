@@ -1,5 +1,5 @@
 // 📁 app/src/main/java/com/example/luontopeli/ui/theme/Color.kt
-package com.example.luontopeli.ui.theme
+package com.epitkane19.luontopeli.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
