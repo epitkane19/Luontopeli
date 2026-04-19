@@ -7,7 +7,6 @@ Kaikki esimerkkikoodit
 - Vk4 CameraX
 - Vk5 ML Kit
 - Vk6 Offline-arkkitehtuuri
-
-+ viimeistelyä
+- Vk7 viimeistelyä
 
 toimivat eli perussuoritus tehty
